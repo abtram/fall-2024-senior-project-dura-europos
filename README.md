@@ -9,10 +9,11 @@
 
 ### Initial File Preparation
 1. Convert all XLS files to CSV format before processing
-2. Place the new database CSV file in the `api/database` directory, replacing the existing file
-3. Update the CSV filename reference in `api/database/db_operations.py`
 
 ### Database Update Process
+1. Remove current database CSV file in `api/database` directory and add new database CSV file instead
+2. Update the CSV filename reference in `api/database/db_operations.py`
+3. Execute following commands:
 ```bash
 cd api
 python3 db_creation.py    # Clear current database
@@ -23,7 +24,7 @@ After running these commands, `dura.sqlite` should be updated with the new data.
 ## Running the Application
 
 ### Starting the Application (updated-generous-interface-dec-2024)
-1. Split your terminal into two windows
+1. Split terminal into two windows
 2. Start the backend:
    ```bash
    cd api
