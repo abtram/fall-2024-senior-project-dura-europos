@@ -77,3 +77,6 @@ The object_type_script helps determine artifact types for database entries. This
   - Wiki Commons (using upload_fname)
   - Description column in database (when sufficient)
 - Note: Using the script is optional but can assist in the manual process of type determination
+
+
+Email abigail.tramer@gmail.com if there is a problem.
