@@ -53,19 +53,19 @@ After running these commands, `dura.sqlite` should be updated with the new data.
    - Contains remaining items from 1008_corrected_scrape not included in new_db
    - To include these items, type and location columns must be completed
 
-## Object Type Script Documentation
+## Object Type Script Documentation (optional - download as separate project and open in new window when running)
 
 ### Purpose and Usage
-The object_type_script helps determine artifact types for database entries. This is necessary because:
+The object_type_script helps determine artifact types for database entries. This is helpful because:
 - Items are grouped by type for user display
 - The object_type column in corrected_scrape database is empty
-- Manual completion of the type column is required for image display
+- Manual completion of the type column is required for image display (with currentt interface implementation)
 
 ### Running the Object Type Script
-1. Update the database following the steps above
+1. Update the database following the previously noted steps (above)
 2. Run the script:
    ```bash
-   cd database
+   cd api/database
    python3 object_type_operation.py
    ```
 
