@@ -39,7 +39,7 @@ After running these commands, `dura.sqlite` should be updated with the new data.
 
 ## Database Files Overview
 
-### Main Data Files
+### Main Data Files (_spreadsheets_ folder)
 1. **1008_corrected_scrape(1).xlsx**
    - Original spreadsheet with items uploaded to Wikidata
    - Current query system uses accession and negative_numbers for Wikidata queries
