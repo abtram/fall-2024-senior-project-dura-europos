@@ -23,7 +23,7 @@ After running these commands, `dura.sqlite` should be updated with the new data.
 
 ## Running the Application
 
-### Starting the Application (updated-generous-interface-dec-2024)
+### Starting the Application
 1. Split terminal into two windows
 2. Start the backend:
    ```bash
